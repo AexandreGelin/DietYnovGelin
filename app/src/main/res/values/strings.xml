@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DietYnovGelin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Weight">Weight</string>
+    <string name="Measurement">Measurement</string>
+    <string name="Recipes">Recipes</string>
+    <string name="Menu">Menu</string>
+    <string name="Account">My Account</string>
+    <string name="MyRecipes">My Recipes</string>
+    <string name="Home">Home</string>
+    <string name="title_activity_weight">WeightActivity</string>
+    <string name="your_weight">Your current weight</string>
+    <string name="Date">Date</string>
+    <string name="Validate">Validate</string>
+    <string name="Cancel">Cancel</string>
+</resources>

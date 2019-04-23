@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="253da926-085c-4f84-ad6f-eb676dd42c85" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1380718815">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Translations Editor" value="3" />
+          <entry key="java" value="16" />
+          <entry key="xml" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="" value="3" />
+          <entry key="JAVA" value="16" />
+          <entry key="XML" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="3159" />
+          <entry key="txt" value="589" />
+          <entry key="xml" value="59" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="3159" />
+          <entry key="PLAIN_TEXT" value="589" />
+          <entry key="XML" value="59" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_prospect.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ynov/gelin/ProspectActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ynov/gelin/Prospect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ynov/gelin/LoginProspectActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="102" column="58" selection-start-line="102" selection-start-column="58" selection-end-line="102" selection-end-column="58" />
+              <folding>
+                <element signatu

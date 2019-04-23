@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/head_menu"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="2dp"
+    android:paddingTop="2dp"
+    android:paddingRight="2dp"
+    android:paddingBottom="2dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/Menu"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+</LinearLayout>

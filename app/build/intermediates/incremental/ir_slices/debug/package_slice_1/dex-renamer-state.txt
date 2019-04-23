@@ -1,0 +1,4 @@
+#Wed Apr 17 12:15:37 CEST 2019
+base.0=C\:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex

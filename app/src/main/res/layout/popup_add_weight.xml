@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="433dp"
+        android:layout_height="394dp"
+        android:background="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="144dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="232dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/label_poid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/your_weight"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/input_weight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/your_weight"
+                    android:inputType="number"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/label_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Date"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/input_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/Date"
+                    android:inputType="date"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/validate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#19B335"
+                    android:text="@string/Validate" />
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#B30725"
+                    android:text="@string/Cancel" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

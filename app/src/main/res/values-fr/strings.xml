@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DietYnovGelin</string>
+    <string name="Weight">Poids</string>
+    <string name="Measurement">Mensuration</string>
+    <string name="Recipes">Recettes</string>
+    <string name="Menu">Menu</string>
+    <string name="Account">Mon Compte</string>
+    <string name="MyRecipes">Mes Recettes</string>
+    <string name="Home">Accueil</string>
+    <string name="your_weight">Votre poids actuel</string>
+    <string name="Date">Date</string>
+    <string name="Validate">Valider</string>
+    <string name="Cancel">Annuler</string>
+</resources>
