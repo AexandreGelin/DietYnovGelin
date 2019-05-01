@@ -12,4 +12,6 @@
     <string name="Date">Date</string>
     <string name="Validate">Valider</string>
     <string name="Cancel">Annuler</string>
+    <string name="ing">Ingredients</string>
+    <string name="step">Etapes</string>
 </resources>

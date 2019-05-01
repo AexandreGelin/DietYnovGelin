@@ -596,12 +596,12 @@
         "source": "C:\\Users\\Alexandre GELIN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7798ed3bd2563b22c59437709a91e2d7\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\Alexandre GELIN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7798ed3bd2563b22c59437709a91e2d7\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\Alexandre GELIN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7798ed3bd2563b22c59437709a91e2d7\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Alexandre GELIN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7798ed3bd2563b22c59437709a91e2d7\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -626,6 +626,10 @@
     {
         "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_menu.xml.flat",
         "source": "C:\\Users\\Alexandre GELIN\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\c6b42c9b3cacca568506ac23759a2e58\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_ingredient.xml.flat",
+        "source": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\src\\main\\res\\layout\\layout_ingredient.xml"
     },
     {
         "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1272,6 +1276,10 @@
         "source": "C:\\Users\\Alexandre GELIN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7798ed3bd2563b22c59437709a91e2d7\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_step.xml.flat",
+        "source": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\src\\main\\res\\layout\\layout_step.xml"
+    },
+    {
         "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
         "source": "C:\\Users\\Alexandre GELIN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\4d2501e989e216136be3688bab1b676e\\res\\layout\\notification_template_part_time.xml"
     },
@@ -1450,6 +1458,10 @@
     {
         "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\Alexandre GELIN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7798ed3bd2563b22c59437709a91e2d7\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_step_list.xml.flat",
+        "source": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\src\\main\\res\\layout\\activity_step_list.xml"
     },
     {
         "merged": "C:\\Dev\\App_mobile\\DietYnovGelin\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",

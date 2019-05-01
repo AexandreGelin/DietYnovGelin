@@ -5,32 +5,33 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
+    ir-eligibility="FIELD_REMOVED"
     plugin-version="3.3.2"
-    timestamp="1555497046483"
+    timestamp="1556730387485"
     token="-8832724245160581826"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="232" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="27" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
 
     <artifact
-        location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
         ir-eligibility="CLASS_ADDED"
-        timestamp="1555496131131"
+        timestamp="1556727144919"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -60,10 +61,10 @@
             location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
@@ -71,29 +72,38 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1555496712264"
+        timestamp="1556727236948"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1556729180254"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_TYPE_CHANGE"
+        timestamp="1556729636059"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_REMOVED"
+        timestamp="1556730387485"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="IMPLEMENTED_INTERFACES_CHANGE"
-        timestamp="1555496934823"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1555497046483"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Dev\App_mobile\DietYnovGelin\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

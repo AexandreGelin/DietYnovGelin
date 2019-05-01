@@ -18,4 +18,6 @@
     <string name="Date">Date</string>
     <string name="Validate">Validate</string>
     <string name="Cancel">Cancel</string>
+    <string name="ing">Ingredients</string>
+    <string name="step">Steps</string>
 </resources>

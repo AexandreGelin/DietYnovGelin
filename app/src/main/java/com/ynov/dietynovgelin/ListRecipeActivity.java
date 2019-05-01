@@ -98,6 +98,8 @@ public class ListRecipeActivity extends ListActivity {
                     JSONObject jsonObj = new JSONObject(jsonStr);
                     JSONArray jsonArr = jsonObj.getJSONArray("result");
 
+
+
                     for (int i = 0; i < jsonArr.length(); i++) {
                         JSONObject c = jsonArr.getJSONObject(i);
 
@@ -136,9 +138,11 @@ public class ListRecipeActivity extends ListActivity {
                         rTime.setBakingTime(baking);
                         rTime.setPrepTime(prep);
 
+                        listIngredient = new ArrayList<Ingredient>();
                         JSONArray jsonArrIng = c.getJSONArray("ingredients");
                         for(int j = 0; j<jsonArrIng.length(); j++){
                             JSONObject d = jsonArrIng.getJSONObject(j);
+
 
                             int quantity = d.getInt("quantity");
                             String unit = d.getString("unit");
@@ -152,7 +156,7 @@ public class ListRecipeActivity extends ListActivity {
                             listIngredient.add(ing);
                         }
 
-
+                        listSteps = new ArrayList<Step>();
                         JSONArray jsonArrStep = c.getJSONArray("steps");
                         for(int k = 0; k<jsonArrStep.length(); k++){
                             JSONObject a = jsonArrStep.getJSONObject(k);
@@ -217,6 +221,7 @@ public class ListRecipeActivity extends ListActivity {
 
             // Mise à jour de la liste
             //adapter.addAll(listRecipe);
+            listIngredient = new ArrayList<Ingredient>();
             adapter.notifyDataSetChanged();
             int size = listRecipe.size();
 

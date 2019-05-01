@@ -1056,6 +1056,7 @@ id Measurement
 id Recipe
 id SHIFT
 id SYM
+id StepLink
 id Weight
 id action0
 id action_bar
@@ -1113,6 +1114,10 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detail_Ingredient
+id detail_bake
+id detail_portion
+id detail_prep
 id detail_title
 id detail_total
 id dimensions
@@ -1146,7 +1151,7 @@ id icon_group
 id ifRoom
 id image
 id imageButton
-id imageView
+id imgRecipe
 id info
 id input_date
 id input_weight
@@ -1171,6 +1176,7 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id name
 id nav_account
 id nav_home
 id nav_recipes
@@ -1182,6 +1188,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id order
 id outline
 id packed
 id parallax
@@ -1192,6 +1199,7 @@ id percent
 id pin
 id progress_circular
 id progress_horizontal
+id quantity
 id radio
 id right
 id right_icon
@@ -1236,6 +1244,7 @@ id src_over
 id standard
 id start
 id status_bar_latest_event_content
+id step
 id stretch
 id submenuarrow
 id submit_area
@@ -1249,6 +1258,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView3
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1267,6 +1277,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id uniform
+id unit
 id unlabeled
 id up
 id useLogo
@@ -1326,6 +1337,7 @@ layout abc_tooltip
 layout activity_list_recipe
 layout activity_main
 layout activity_recipe_detail
+layout activity_step_list
 layout activity_weight
 layout app_bar_main
 layout content_main
@@ -1344,6 +1356,8 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout layout_ingredient
+layout layout_step
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout nav_header_main
@@ -1430,6 +1444,7 @@ string character_counter_pattern
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
+string ing
 string mtrl_chip_close_icon_content_description
 string nav_header_desc
 string nav_header_subtitle
@@ -1443,6 +1458,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string step
 string title_activity_weight
 string your_weight
 style AlertDialog_AppCompat

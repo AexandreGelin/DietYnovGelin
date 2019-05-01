@@ -8,20 +8,17 @@
 
     <LinearLayout
         android:layout_width="408dp"
-        android:layout_height="703dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="6dp"
+        android:layout_height="579dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="2dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imgRecipe"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:srcCompat="@tools:sample/avatars" />
@@ -36,11 +33,62 @@
             android:textSize="30sp" />
 
         <TextView
+            android:id="@+id/detail_portion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
             android:id="@+id/detail_total"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TextView"
             android:textColor="@android:color/black"
             android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/detail_prep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/detail_bake"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/detail_Ingredient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ing"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="126dp" />
+
+        <Button
+            android:id="@+id/StepLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/step"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="149dp"
+            tools:layout_editor_absoluteY="478dp" />
+
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>
